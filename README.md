@@ -1,2 +1,10 @@
 # homebrew-tap
-Homebrew taps for codetales
+
+Formulae for https://github.com/codetales
+
+### Donner
+
+```console
+$ brew install codetales/tap/donner
+```
+
