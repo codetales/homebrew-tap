@@ -2,14 +2,14 @@
 class Donner < Formula
   desc "Donner is a generic command wrapper. It let's you define strategies to wrap commands in things like 'docker-compose exec' or 'docker container run'."
   homepage ""
-  version "0.1.0"
+  version "0.1.1"
 
   if OS.mac?
-    url "https://github.com/codetales/donner/releases/download/0.1.0/donner_0.1.0_Darwin_x86_64.tar.gz"
-    sha256 "99819a07051cce4ed6f18878bac1db038cb503abb450765d9dd0e0f029bf9bb0"
+    url "https://github.com/codetales/donner/releases/download/0.1.1/donner_0.1.1_Darwin_x86_64.tar.gz"
+    sha256 "25f97b3830e92113d1d8712ddb8086b29ae3478978680019c3b54fd52b2a55e0"
   elsif OS.linux?
-    url "https://github.com/codetales/donner/releases/download/0.1.0/donner_0.1.0_Linux_x86_64.tar.gz"
-    sha256 "a767ec708e70cde9169a95c117c77405c9f610a2b2470ac9fdb33865da058eb7"
+    url "https://github.com/codetales/donner/releases/download/0.1.1/donner_0.1.1_Linux_x86_64.tar.gz"
+    sha256 "c1f51f0fd21ffb82938e3b5c07ffd1113779865bdf94321d76850c1aae998aec"
   end
 
   def install
